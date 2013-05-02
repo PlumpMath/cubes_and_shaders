@@ -231,6 +231,7 @@ GameObject:
   - 33: {fileID: 723162521}
   - 65: {fileID: 723162522}
   - 23: {fileID: 723162520}
+  - 114: {fileID: 723162523}
   m_Layer: 0
   m_Name: CodeCube
   m_TagString: Untagged
@@ -286,6 +287,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &723162523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 723162518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9930a989f127447dbbd87c78f501d06d, type: 1}
+  m_Name: 
+  rotationSpeed: 1
 --- !u!1 &736022218
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,6 +439,7 @@ GameObject:
   - 23: {fileID: 2085905740}
   - 54: {fileID: 2085905742}
   - 75: {fileID: 2085905744}
+  - 114: {fileID: 2085905745}
   m_Layer: 0
   m_Name: PhysCube
   m_TagString: Untagged
@@ -503,8 +516,19 @@ ConstantForce:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2085905738}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Force: {x: 0, y: 0, z: 0}
   m_RelativeForce: {x: 0, y: 0, z: 0}
   m_Torque: {x: 0, y: 0, z: 0}
   m_RelativeTorque: {x: 0, y: .100000001, z: 0}
+--- !u!114 &2085905745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2085905738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db78f6a18809e4760805b7184bf940c1, type: 1}
+  m_Name: 
+  rotationSpeed: 0
