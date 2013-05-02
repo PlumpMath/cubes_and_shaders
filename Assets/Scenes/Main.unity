@@ -371,6 +371,7 @@ GameObject:
   - 33: {fileID: 1581331339}
   - 65: {fileID: 1581331340}
   - 23: {fileID: 1581331338}
+  - 111: {fileID: 1581331341}
   m_Layer: 0
   m_Name: AniCube
   m_TagString: Untagged
@@ -426,6 +427,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!111 &1581331341
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1581331336}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: f01f1c9c67bed4d589f5938f9e44dec6, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: f01f1c9c67bed4d589f5938f9e44dec6, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
 --- !u!1 &2085905738
 GameObject:
   m_ObjectHideFlags: 0
