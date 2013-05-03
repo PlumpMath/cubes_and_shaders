@@ -8,7 +8,7 @@ public class SpinForce : MonoBehaviour {
 
   void Start ()
   {
-    rigidbody.AddRelativeTorque (Vector3.up * 10);
+    rigidbody.AddRelativeTorque (Vector3.up * 15);
   }
 
 
